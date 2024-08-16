@@ -1,30 +1,25 @@
 ___INPUT DEVICES___
 
-Keyboard
+1.*Keyboard*
 
-Mouse
+2.*Mouse*
 
-Scanner
+3.*Scanner*
 
-Bar code reader
+4.*Bar code reader*
 
-Microphone
+5.*Microphone*
 
-Joy Stick
+6.*Joy Stick*
 
-Track Ball
+7.*Track Ball*
 
  ___OUTPUT DEVICES___
 
-Speakers
+1.*Speakers*
 
-Monitor
+2.*Monitor*
 
-Printer
+3.*Printer*
 
-Projector
-
-
-
-
- 
+4.*Projector*
