@@ -84,3 +84,21 @@ int main() {
 }
 
 
+
+
+
+
+
+
+
+
+// Online C compiler to run C program online
+#include <stdio.h>
+int main() {
+    int a,b ;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    int c = a + b;
+    scanf("Sum of the two numbers is %d" , c);
+    return 0;
+}
