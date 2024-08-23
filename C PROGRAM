@@ -32,3 +32,55 @@ int main() {
     printf("Sum of the two numbers is %f" , c);
     return 0;
 }
+
+
+
+
+
+
+
+
+
+errors shown while using %d instead of %f
+
+
+
+#include <stdio.h>
+int main() {
+    float a=10.2; 
+    float b=20.3;
+    float c = a + b;
+    printf("Sum of the two numbers is %d" , c);
+    return 0;
+}
+
+
+
+
+
+
+
+PROGRAMIZ WEB PAGE 
+
+
+// Online C compiler to run C program online
+#include <stdio.h>
+int main() {
+    float a=10.2;
+    float b=20.3;
+    float  c = a + b;
+    printf("Sum of the two numbers is %f" , c);
+    return 0;
+}
+
+// Online C compiler to run C program online
+#include <stdio.h>
+int main() {
+    float a=10.2;
+    float b=20.3;
+    float  c = a + b;
+    printf("Sum of the two numbers is %d" , c);
+    return 0;
+}
+
+
