@@ -9,7 +9,7 @@ int main() {
 }
 
 
-***CODE FOR SUM OF TWO INTERGER***
+***CODE FOR SUM OF TWO INTERGER*** using interger format
 
 
 // Online C compiler to run C program online
@@ -20,3 +20,14 @@ int main() {
     printf("Sum of the two numbers is %d" , c);
     return 0;
 }
+
+
+sum of two integer using float 
+
+#include <stdio.h>
+int main() {
+    float a=10.2; 
+    float b=20.3;
+    float c = a + b;
+    printf("Sum of the two numbers is %f" , c);
+    return 0;
