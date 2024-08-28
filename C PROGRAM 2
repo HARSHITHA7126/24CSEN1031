@@ -171,3 +171,28 @@ int main() {
 
 
 
+#include <stdio.h>
+2	
+3	#include <stdio.h>
+4	
+5	int main() {
+6	   int a=6;
+7	   
+8	    //printf("Enter an integer 6");
+9	    //scanf("%d", &a);
+10	    if (a > 0)
+11	    {
+12	        printf("The number %d is postive",a);
+13	        if (a %2 == 0)
+14	        printf("\n The number is even");
+15	        else;
+16	        printf("\n The number is odd");
+17	        
+18	    }
+19	else if (a<0)
+20	printf("The number %d is negative" , a);
+21	else
+22	printf("The number %d is zero", a);
+23	    return 0;
+24	}
+
