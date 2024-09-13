@@ -11,9 +11,6 @@ int main() {
 }
 
 
-
-
-
 #include <stdio.h>
 
 int main() {
@@ -22,10 +19,6 @@ int main() {
 
     return 0;
 }
-
-
-
-
 
 
 #include <stdio.h>
@@ -41,13 +34,6 @@ int main() {
 }
 
 
-
-
-
-
-
-
-
 #include <stdio.h>
 
 int main() {
@@ -58,16 +44,6 @@ int main() {
  
        return 0;
 }
-
-
-
-
-
-
-
-
-
-
 
 #include <stdio.h>
 
@@ -89,12 +65,6 @@ int main() {
     printf("%d is not a prime number.\n",num);
                      return 0;
 }
-
-
-
-
-
-
 
 
 
@@ -123,27 +93,6 @@ int main() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #include <stdio.h>
 
 int main() {
@@ -165,10 +114,6 @@ int main() {
     printf("The number %d is zero", a);
     return 0;
 }
-
-
-
-
 
 
 #include <stdio.h>
