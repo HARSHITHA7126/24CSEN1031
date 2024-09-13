@@ -122,3 +122,27 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+*13th september 2024 FRIDAY*
+
+11:47AM
+
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <stdio.h>
+
+int main() { 
+    int a; 
+    printf("Enter a value for a: ");
+    scanf ("%d",&a);
+    printf("Twice the value of a is %d",2*a);
+    }
