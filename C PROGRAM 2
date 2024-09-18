@@ -141,3 +141,16 @@ int main() {
 23	    return 0;
 24	}
 
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int multiply(int a,int b, int c)
+{
+    return a*b+c;
+}
+int main (){
+    int x=50,y=60,z=10;
+    //Write C code here
+    printf("Arithmetic function of the three numbers is: %d",multiply(x,y,z) );
+    return 0;
+}
