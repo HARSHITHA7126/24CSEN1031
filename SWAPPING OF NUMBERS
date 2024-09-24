@@ -1,4 +1,4 @@
-INPUT
+INPUT ##FOR TWO NUMBERS##
 
 #include <stdio.h>
 
@@ -22,7 +22,7 @@ After Sorting: a=2, b= 4
 
 === Code Execution Successful ===
 
-INPUT
+INPUT ## FOR THREE NUMBERS ##
 
 #include <stdio.h>
 
@@ -47,7 +47,7 @@ After Sorting: a=2, b= 6, c=4
 
 === Code Execution Successful ===
 
-INPUT:
+INPUT:## FOR THREE NUMBERS ##
 #include <stdio.h>
 
 int main() {
@@ -70,5 +70,100 @@ printf("\nAfter Sorting: a=%d, b= %d, c=%d",a,b,c);
 OUTPUT:
 Before Sorting; a=6, b= 4 ,c=2
 After Sorting: a=2, b= 4, c=6
+
+=== Code Execution Successful ===
+
+INPUT:## FOR THREE NUMBERS ##
+#include <stdio.h>
+
+int main() {
+   int a=70, b=60,c=50, temporary;
+    printf("\nBefore Sorting; a=%d, b= %d ,c=%d",a,b,c);
+    if(a>b) {//Swap the numbers 
+            temporary = a;  a=b; b=temporary;
+  if(a>c) {//Swap the numbers          
+temporary = a;  a=c; c=temporary;
+}
+}
+ if(b>c) {//Swap the numbers          
+temporary = b;  b=c; c=temporary;
+}
+printf("\nAfter Sorting: a=%d, b= %d, c=%d",a,b,c);
+    return 0;
+}
+
+OUTPUT:
+Before Sorting; a=70, b= 60 ,c=50
+After Sorting: a=50, b= 60, c=70
+
+=== Code Execution Successful ===
+
+
+INPUT:## FOR FOUR NUMBERS ##
+int main() {
+   int a=70, b=60,c=50,d=40, temporary;
+    printf("\nBefore Sorting; a=%d, b= %d ,c=%d, d=%d",a,b,c,d);
+    if(a>b) {//Swap the numbers 
+            temporary = a;  a=b; b=temporary;
+  if(a>c) {//Swap the numbers          
+temporary = a;  a=c; c=temporary;
+}
+}
+ if(a>d) {//Swap the numbers 
+            temporary = a;  a=d; d=temporary;
+}
+if(b>d) {//Swap the numbers 
+            temporary = b;  b=d; d=temporary;
+}
+
+ if(a>d) {//Swap the numbers 
+            temporary = a;  a=d; d=temporary;
+}
+if(c>d) {//Swap the numbers 
+            temporary = c;  c=d; d=temporary;
+}
+
+printf("\nAfter Sorting: a=%d, b= %d, c=%d, d=%d",a,b,c,d);
+    return 0;
+}
+
+OUTPUT:
+Before Sorting; a=70, b= 60 ,c=50, d=40
+After Sorting: a=40, b= 50, c=60, d=70
+
+=== Code Execution Successful ===
+
+INPUT:
+#include <stdio.h>
+
+int main() {
+   int a=100, b=-8,c=120,d=5, temporary;
+    printf("\nBefore Sorting; a=%d, b= %d ,c=%d, d=%d",a,b,c,d);
+    if(a>b) {//Swap the numbers 
+            temporary = a;  a=b; b=temporary;
+  if(a>c) {//Swap the numbers          
+temporary = a;  a=c; c=temporary;
+}
+}
+ if(a>d) {//Swap the numbers 
+            temporary = a;  a=d; d=temporary;
+}
+if(b>d) {//Swap the numbers 
+            temporary = b;  b=d; d=temporary;
+}
+
+ if(a>d) {//Swap the numbers 
+            temporary = a;  a=d; d=temporary;
+}
+if(c>d) {//Swap the numbers 
+            temporary = c;  c=d; d=temporary;
+}
+
+printf("\nAfter Sorting: a=%d, b= %d, c=%d, d=%d",a,b,c,d);
+    return 0;
+}
+OUTPUT:
+Before Sorting; a=100, b= -8 ,c=120, d=5
+After Sorting: a=-8, b= 5, c=100, d=120
 
 === Code Execution Successful ===
