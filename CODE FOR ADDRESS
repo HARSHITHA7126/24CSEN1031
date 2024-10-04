@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int a=3,b=5;
+    printf("\nvalue of a = %d and address is %u",a&a);
+     printf("\nvalue of b = %d and address is %u",b&b);
+     return 0;
+}
+##################################################################
+OUTPUT
+value of a = 3 and address is 2222550440
+value of b = 5 and address is 0
+
+=== Code Execution Successful ===
