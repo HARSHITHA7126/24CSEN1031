@@ -16,6 +16,8 @@ q=q/10;
     return 0;
 
 }
+
+
 OUTPUT
 /tmp/Q5NRJNfP9y.o
 ENTER A NUMBER :250
@@ -51,7 +53,7 @@ printf("%d\n", r);
     return 0;
 }
 
-
+OUTPUT 
 ENTER A NUMBER :256
 6
 5
