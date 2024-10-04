@@ -1,0 +1,24 @@
+##INPUT##
+#include <stdio.h>
+
+int main()  {
+ int a, b;   
+    
+printf("ENTER A NUMBER");
+scanf("%d",&a);
+
+b=a%10;
+printf("\n\nTHE UNIT PLACE OF %d is %d",a,b);
+
+return 0;
+  }
+
+##OUTPUT##
+
+ENTER A NUMBER 25
+
+
+THE UNIT PLACE OF 25 is 5
+
+=== Code Execution Successful ===
+
