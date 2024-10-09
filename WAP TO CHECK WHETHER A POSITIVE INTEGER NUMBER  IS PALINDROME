@@ -1,0 +1,38 @@
+-------------------INPUT----------------
+
+//WAP TO CHECK WHETHER A POSITIVE INTEGER NUMBER IS PALINDROME
+
+#include <stdio.h>
+
+int main() {
+   int a,b,c,sum=0;
+   printf("Enter any number to check whether it is Palindrome Or Not: ");
+   scanf("%d",&c);
+   a=c;
+   while(a>=1){
+       b=a%10;
+       a=a/10;
+       sum=sum*10+b;
+   }
+   if(sum==c){
+       printf("\n Number is A Palindrome ");
+   }
+   else{
+       printf("\nNumber is Not a Palindrome");
+   }
+     return 0;
+}
+==========OUTPUT-1============
+
+Enter any number to check whether it is Palindrome Or Not: 9876
+
+Number is Not a Palindrome
+
+==================== Code Execution Successful ==============
+=========================OUTPUT-2=============================
+
+Enter any number to check whether it is Palindrome Or Not: 797
+
+ Number is A Palindrome 
+
+================== Code Execution Successful =======================
