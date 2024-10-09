@@ -1,0 +1,32 @@
+
+//WAP TO PRINT THE SUM OF POSITIVE INTEGERS
+#include <stdio.h>
+
+int main() {
+   int a,b,c,sum=0;
+   printf("enter any number: ");
+   scanf("%d",&c);
+   a=c;
+   printf(" The Sum of the Digits in the Entered Number is : ");
+   
+   while(a>=1){
+       b=a%10;
+       a=a/10;
+       
+       sum=sum+b;
+   }
+   printf("%d",sum);
+   
+   
+   
+   return 0;
+}
+==========================================================================================================================================================
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+OUTPUT
+
+enter any number: 7126
+ the sum of the digits in the entered number is : 16
+
+=== Code Execution Successful ===
+
