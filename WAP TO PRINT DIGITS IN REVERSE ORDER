@@ -1,0 +1,25 @@
+===========INPUT==========
+//WAP TO PRINT DIGITS IN REVERSE ORDER 
+#include <stdio.h>
+
+int main() {
+     int num, q,r;
+  
+  printf("ENTER A NUMBER :");
+  scanf("%d",&num);
+ q=num;
+  while (q>0){
+r=q%10;
+printf("%d\n", r);
+q=q/10;
+}
+    return 0;
+}
+------------------------------
+=========OUTPUT==============
+ENTER A NUMBER :4651
+1
+5
+6
+4
+=== Code Execution Successful ===
