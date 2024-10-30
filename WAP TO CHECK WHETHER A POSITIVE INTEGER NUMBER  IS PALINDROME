@@ -5,16 +5,16 @@
 #include <stdio.h>
 
 int main() {
-   int a,b,c,sum=0;
+   int k,l,m,sum=0;
    printf("Enter any number to check whether it is Palindrome Or Not: ");
-   scanf("%d",&c);
-   a=c;
-   while(a>=1){
-       b=a%10;
-       a=a/10;
-       sum=sum*10+b;
+   scanf("%d",&m);
+   k=m;
+   while(k>=1){
+       l=k%10;
+       k=k/10;
+       sum=sum*10+l;
    }
-   if(sum==c){
+   if(sum==m){
        printf("\n Number is A Palindrome ");
    }
    else{
