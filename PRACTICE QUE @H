@@ -1,0 +1,56 @@
+//AREA OF SQUARE USING INT 
+INPUT========================================
+#include<stdio.h>
+int main (){
+   int side;
+   printf("ENTER SIDE:");
+   scanf("%d",&side);
+   
+   printf("AREA IS :%d", side*side);
+       return 0;
+}
+OUTPUT=========================
+/tmp/dORcGk8fH3.o
+ENTER SIDE:5
+AREA IS :25
+
+=== Code Execution Successful ===
+
+*****************************************************************************************************************************
+// AREA OF A SQUARE USING FLOAT
+===================================INPUT============================================
+#include<stdio.h>
+int main (){
+   float side;
+   printf("ENTER SIDE:");
+   scanf("%f",&side);
+   
+   printf("AREA IS :%f", side*side);
+       return 0;
+}
+==================================================OUTPUT=======================
+/tmp/mAfY55vdjC.o
+ENTER SIDE:10
+AREA IS :100.000000
+
+=== Code Execution Successful ===
+
+**********************************************************************************************************************************************
+//AREA OF CIRCLE
+INPUT======================================
+#include<stdio.h>
+int main (){
+  float radius;
+   printf("ENTER RADIUS:");
+   scanf("%f",&radius);
+   
+   printf("AREA IS :%f", 3.14*radius*radius);
+       return 0;
+}
+===================================OUTPUT============================
+/tmp/ZCM0ZR6CjS.o
+ENTER RADIUS:2
+AREA IS :12.560000
+
+=== Code Execution Successful =====================================
+***********************************************************************************************
