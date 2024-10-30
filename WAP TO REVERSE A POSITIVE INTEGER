@@ -1,6 +1,42 @@
 ====================INPUT=====================
 //WAP TO REVERSE A POSITIVE INTEGER 
 
+#include <stdio.h>
+
+int main() {
+   int p,q,sum=0;
+
+   printf("enter any number to be reversed: ");
+   scanf("%d",&p);
+   
+   
+   while(p>=1){
+       q=p%10;
+       p=p/10;
+       sum=sum*10+q;
+   }
+   
+   p=sum;
+   printf("\n\nafter reversing: %d",p);
+
+   
+   return 0;
+}
+--------------------------------------------------------------------------------------------------------
+
+=================================OUTPUT===================
+enter any number to be reversed: 123456
 
 
+after reversing: 654321
+
+=== Code Execution Successful ===
+
+
+enter any number to be reversed: 6789
+
+
+after reversing: 9876
+
+=== Code Execution Successful ===
 
