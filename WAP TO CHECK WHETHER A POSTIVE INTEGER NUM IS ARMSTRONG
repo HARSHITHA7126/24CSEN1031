@@ -1,14 +1,15 @@
+INPUT------------------
 //WAP TO CHECK WHETHER A POSTIVE INTEGER NUM IS ARMSTRONG 
 #include <stdio.h>
 
 int main() {
-   int num,r,sum=0,t;
+   int num,x,sum=0,t;
    printf("Enter any number :");
    scanf("%d",&num); 
    t=num; 
    while(num>=1){
-       r=num%10;
-       sum= sum+(r*r*r);
+       x=num%10;
+       sum= sum+(x*x*x);
     num=num/10;
        
    }
