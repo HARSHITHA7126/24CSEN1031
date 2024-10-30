@@ -3,22 +3,20 @@
 #include <stdio.h>
 
 int main() {
-   int a,b,c,sum=0;
+   int x,y,z,sum=0;
    printf("enter any number: ");
-   scanf("%d",&c);
-   a=c;
+   scanf("%d",&z);
+   x=z;
    printf(" The Sum of the Digits in the Entered Number is : ");
    
-   while(a>=1){
-       b=a%10;
-       a=a/10;
+   while(x>=1){
+       y=x%10;
+       x=x/10;
        
-       sum=sum+b;
+       sum=sum+y;
    }
    printf("%d",sum);
-   
-   
-   
+    
    return 0;
 }
 ==========================================================================================================================================================
