@@ -182,3 +182,20 @@ output
 0.666667
 
 === Code Execution Successful ===
+
+#include <stdio.h>
+
+int main (){
+    int a = (int)1.99999999;
+    printf("%d\n",a);
+    return 0;
+    }
+
+output
+
+
+/tmp/Q1NfjLXrBR.o
+1
+
+
+=== Code Execution Successful ===
