@@ -122,3 +122,13 @@ output**********
 2
 
 === Code Execution Successful ===
+
+
+#include <stdio.h>
+
+int main (){
+    
+    printf("%d",16%10);
+    
+    return 0;
+    }
