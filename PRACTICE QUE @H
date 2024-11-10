@@ -140,3 +140,45 @@ int main (){
     
     return 0;
     }
+
+
+input________________
+#include <stdio.h>
+
+int main (){
+    
+    printf("%f",2.9*2.9);
+    
+    return 0;
+    }
+
+#include <stdio.h>
+
+int main (){
+    
+    printf("%f",2.9/2.9);
+    
+    return 0;
+    }
+
+output
+1.000000
+
+=== Code Execution Successful ===
+
+
+
+input
+#include <stdio.h>
+
+int main (){
+    
+    printf("%f",2.0/3);
+    
+    return 0;
+    }
+output
+/tmp/rna4pV0M1q.o
+0.666667
+
+=== Code Execution Successful ===
