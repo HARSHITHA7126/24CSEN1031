@@ -263,3 +263,21 @@ teenager
 
 
 === Code Execution Successful ===
+
+WAP FOR TERNARY OPERATION
+#include <stdio.h>
+
+int main() {
+   int age;
+  printf("enter age:");
+  scanf("%d",&age);
+  age>=18? printf("adult\n"): printf("not adult\n");
+    return 0;
+}
+
+OUTPUT----==================
+enter age:76
+adult
+
+
+=== Code Execution Successful ===
