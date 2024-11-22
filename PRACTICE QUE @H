@@ -234,3 +234,32 @@ Average of three value is: 4.000000
 
 
 === Code Execution Successful ===
+
+wap for if, else if and if 
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+   int age;
+   printf("enter age:\n");
+   scanf("%d", &age);
+   if (age>=18){
+     printf("adult");
+   }
+     else if (age>13 && age<18){
+     printf("teenager\n");
+   }
+else{
+    printf("child");
+
+}
+    return 0;
+}
+output=============================================
+enter age:
+16
+teenager
+
+
+=== Code Execution Successful ===
