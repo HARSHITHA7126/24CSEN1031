@@ -379,3 +379,25 @@ enter number:53
 positive
 odd
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=== Code Execution Successful =============================---------------------------------------------@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//WAP FOR PASS OR FAIL
+#include<stdio.h>
+int main(){
+int marks;
+printf("enter marks(0-100):");
+scanf("%d", &marks);
+
+if (marks<=30){
+    printf("FAIL\n");
+} else{
+    printf("PASS\n");
+}
+
+return 0;    
+}
+
+OUTPUT
+enter marks(0-100):90
+PASS
+
+
+=== Code Execution Successful ===
