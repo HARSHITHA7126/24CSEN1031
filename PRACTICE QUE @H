@@ -352,3 +352,30 @@ saturday
 
 
 === Code Execution Successful ===
+==================================INPUT========================================
+#include<stdio.h>
+int main(){
+int number;
+printf("enter number:");
+scanf("%d", &number);
+
+if (number >=0){
+printf("positive\n");
+if (number%2==0){
+    printf("even\n");
+}else {
+    printf("odd\n");
+}
+}
+return 0;
+    
+}
+=======================================================OUTPUT============================================================
+enter number:9076
+positive
+even
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+enter number:53
+positive
+odd
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=== Code Execution Successful =============================---------------------------------------------@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
