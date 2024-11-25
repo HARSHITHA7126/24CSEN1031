@@ -1,0 +1,21 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+ for (int i=1; ;i++){
+     printf("hello world\n");
+ }   
+
+    return 0;
+}
+
+OUTPUT
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world........................................
