@@ -1,0 +1,29 @@
+INPUT
+
+#include <stdio.h>
+
+int main() {
+    char ch;
+    printf("enter a character:");
+    scanf("%c", &ch);
+    if (ch>='A' && ch<='Z' ){
+        printf("upper case");
+    }else if (ch>='a' && ch<='z'){
+        printf("lower case");
+    } else {
+        printf("not english");
+    }
+
+    return 0;
+}
+
+OUTPUT
+enter a character:h
+lower case
+
+=== Code Execution Successful ===
+
+enter a character:P
+upper case
+
+=== Code Execution Successful ===
